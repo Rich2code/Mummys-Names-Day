@@ -15,13 +15,13 @@ const MEMORIES = [
     id: "cable",
     src: "photo-cable.jpg",
     caption: "Up high",
-    alt: "The family in a cable car above the sea",
+    alt: "The family in a Ferris wheel capsule above the sea",
     kicker: "Adventure day",
     title: "Above the waves",
     wish: "Happy name day Mama. Hope you get more days like this — a bit of an adventure and all of us being silly next to you.",
     wishLv: "Daudz laimes vārda dienā, Mama. Lai tev vēl ir tādas dienas — mazliet piedzīvojumu un mēs visi blakus, smieklīgi kā vienmēr.",
     memory:
-      "Remember when we were all squished in that cable car over the sea? Alice stuck her tongue out and you did the peace sign. Every time I see this I smile.",
+      "Remember when we were all squished in that Ferris wheel pod over the sea? Alice stuck her tongue out and you did the peace sign. Every time I see this I smile.",
   },
   {
     id: "dinner",
