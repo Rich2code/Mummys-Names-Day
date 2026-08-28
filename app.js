@@ -1,7 +1,7 @@
 const MEMORIES = [
   {
     id: "pool",
-    src: "photos/photo-pool.jpg",
+    src: "photo-pool.jpg",
     caption: "Pool day",
     alt: "The family together in the swimming pool",
     kicker: "All together",
@@ -13,7 +13,7 @@ const MEMORIES = [
   },
   {
     id: "cable",
-    src: "photos/photo-cable.jpg",
+    src: "photo-cable.jpg",
     caption: "Up high",
     alt: "The family in a cable car above the sea",
     kicker: "Adventure day",
@@ -25,7 +25,7 @@ const MEMORIES = [
   },
   {
     id: "dinner",
-    src: "photos/photo-dinner.jpg",
+    src: "photo-dinner.jpg",
     caption: "Dinner",
     alt: "Family dinner at home with birthday decorations",
     kicker: "Around the table",
@@ -37,7 +37,7 @@ const MEMORIES = [
   },
   {
     id: "flowers",
-    src: "photos/photo-flowers.jpg",
+    src: "photo-flowers.jpg",
     caption: "Flower crowns",
     alt: "Flower crowns on a sunny day outdoors",
     kicker: "Summer blooms",
@@ -49,7 +49,7 @@ const MEMORIES = [
   },
   {
     id: "boat",
-    src: "photos/photo-boat.jpg",
+    src: "photo-boat.jpg",
     caption: "Boat ride",
     alt: "The family on a boat on a park lake",
     kicker: "Out on the water",
@@ -61,7 +61,7 @@ const MEMORIES = [
   },
   {
     id: "sunset",
-    src: "photos/photo-sunset.jpg",
+    src: "photo-sunset.jpg",
     caption: "Sunset",
     alt: "The family hugging on the beach at sunset",
     kicker: "Golden hour",
