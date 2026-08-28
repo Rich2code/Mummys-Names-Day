@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <base href="./" />
+    <title>Happy Name Day, Mummy · Daudz laimes vārda dienā</title>
+    <meta name="description" content="An interactive name day card for Aiga — drag a photo onto the camera." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="blush blush-one"></div>
+      <div class="blush blush-two"></div>
+      <div class="blush blush-three"></div>
+      <div class="grain"></div>
+      <div class="petals" id="petals"></div>
+    </div>
+
+    <header class="masthead">
+      <p class="kicker">29. augusts · Vārda diena</p>
+      <h1>Happy name day,<br /><em>Mummy</em></h1>
+      <p class="latvian-line">Daudz laimes vārda dienā, Mummy</p>
+      <p class="subtitle">Aiga</p>
+    </header>
+
+    <main>
+      <section class="stage" id="stage" aria-label="Name day card">
+        <div class="drop-zone" id="drop-zone">
+          <div class="drop-ring"></div>
+          <div class="drop-core">
+            <span class="camera" aria-hidden="true">📷</span>
+            <p class="drop-label">Drop a memory</p>
+            <p class="drop-label-lv">Ieliec atmiņu</p>
+          </div>
+        </div>
+      </section>
+
+      <p class="hint" id="hint">
+        Drag any photo onto the camera
+        <span class="hint-lv">Velc jebkuru foto pie kameras</span>
+      </p>
+    </main>
+
+    <div class="flash" id="flash" aria-hidden="true"></div>
+
+    <div class="modal" id="modal" hidden>
+      <div class="modal-backdrop" data-close></div>
+      <article class="letter" role="dialog" aria-modal="true" aria-labelledby="letter-title">
+        <button class="close" type="button" data-close aria-label="Close">×</button>
+        <div class="letter-photo">
+          <img id="letter-image" alt="" />
+        </div>
+        <p class="letter-kicker" id="letter-kicker"></p>
+        <h2 class="letter-title" id="letter-title"></h2>
+        <p class="letter-wish" id="letter-wish"></p>
+        <p class="letter-wish-lv" id="letter-wish-lv"></p>
+        <p class="letter-memory-label">A memory</p>
+        <p class="letter-memory" id="letter-memory"></p>
+      </article>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
